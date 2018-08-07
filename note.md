@@ -31,6 +31,9 @@ don't touch main.css , don't stop this
 
 > touch .gitignore
 > git init
+> git add .
+> git commit -m 'something'
+
 
 
 
