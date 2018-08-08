@@ -7,10 +7,20 @@
   transition: all 1s ease-out; }
   .menu-btn .btn-line {
     width: 28px;
-    height: 3px;
+    height: 4px;
     margin: 0 0 5px 0;
     background: white;
     transition: all 1s ease-out; }
+  .menu-btn.close {
+    transform: rotate(360deg); }
+    .menu-btn.close .btn-line:nth-child(1) {
+      transform: rotate(45deg) translate(5px, 5px);
+      background: #eece1a; }
+    .menu-btn.close .btn-line:nth-child(2) {
+      opacity: 0; }
+    .menu-btn.close .btn-line:nth-child(3) {
+      transform: rotate(-45deg) translate(7.5px, -10px);
+      background: #eece1a; }
 
 * {
   box-sizing: border-box; }
