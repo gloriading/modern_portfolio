@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Inknut+Antiqua|Sunflower:300');
+
+// font variables
+$inknut: 'Inknut Antiqua', 'Segoe UI', Tahoma, sans-serif;
+$sunflower: 'Sunflower', sans-serif;
+
+// color variables
 $primary-color: #444;
-$secondary-color: #eece1a;
+$secondary-color: #a29bfe;
+
+// other variables
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
 $background-opacity: 0.7;

@@ -24,12 +24,14 @@ h1, h2, h3 {
   font-weight: 400;
 
   &.lg-heading {
+    font-family: $inknut;
     font-size: 6rem;
   }
 
   &.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
+    letter-spacing: 1px;
     background: rgba(lighten($primary-color, 3),0.5);
   }
 }
