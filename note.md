@@ -35,10 +35,20 @@ don't touch main.css , don't stop this
 > git commit -m 'something'
 
 
+> npm install gh-pages
 
+{
+  "name": "modern_portfolio",
+  "version": "1.0.0",
+  "description": "Responsive Portfolio Website",
+  "main": "index.js",
+  "homepage": "https://gloriading.github.io/ModernPortfolio",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css --recursive",
+    "deploy": "gh-pages -d dist"
+  },
 
-
-
+> npm run deploy
 
 
 
