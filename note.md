@@ -42,7 +42,7 @@ don't touch main.css , don't stop this
   "version": "1.0.0",
   "description": "Responsive Portfolio Website",
   "main": "index.js",
-  "homepage": "https://gloriading.github.io/ModernPortfolio",
+  "homepage": "https://gloriading.github.io/modern_portfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css --recursive",
     "deploy": "gh-pages -d dist"
