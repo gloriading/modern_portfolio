@@ -1,2 +1,3 @@
-# Practice Only - node-sass
-* Learning from Traversy Media 👍🏼
+# Practice Project - Modern Portfolio
+### Learning from Traversy Media 👍🏼
+### Techonologies: HTML5, SCSS (node-sass)
